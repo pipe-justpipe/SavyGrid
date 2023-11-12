@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, h1, p, section, .hero__image{
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    height: 100vh;
+}
+section h1{
+    font-weight: 600;
+    font-size:50px ;
+    width: 400px;
+}
+section p{
+width: 800px;
+line-height: 1.5em;
+font-weight: 300;
+}
+#learn{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    background-color: burlywood;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+section > img{
+    height: 100vh;
+    width: 100%;
+}
+.section__two{
+    height: 100vh;
+    display: grid;
+    background-color: li;
+}
+
+.images__container{
+    display: flex;
+}
+.images__container img{
+    width: 300px;
+} 
+.text__section{
+    padding: 50px;
+    display: grid;
+}
+
+#bg__section{
+    width: 5%;
+    background-color: lightgrey;
+}
+p >a{
+    color: black;
+}
